@@ -25,3 +25,18 @@ flowchart LR
     D --> E["Excel Output (openpyxl)"]
 
 
+🧠 Why it matters:
+- It shows *practical coding judgment* — not fancy, but smart and robust.
+- It gives investors or RFP evaluators confidence in your build depth.
+
+---
+
+## ✅ Final Tip: Badge It
+
+Optional, but cool:
+
+```markdown
+![Python](https://img.shields.io/badge/Python-3.10-blue.svg)
+![Vision API](https://img.shields.io/badge/API-Google%20Vision-yellow)
+![Groq](https://img.shields.io/badge/LLM-Groq%20API-purple)
+
