@@ -8,9 +8,12 @@
   <img src="https://img.shields.io/badge/LLM-Groq%20API-purple" />
 </p>
 
+> **Showcase Only**  
+> This repo demonstrates my architecture, process, and outcomes using safe sample assets.  
+> The production code and full pipeline are proprietary and available **under NDA**.  
+> To see it running live: **akar@akar7a.onmicrosoft.com**
+
 # OCR-Multilingual – Voter List OCR for Hindi, Kannada, and English
-
-
 
 ## Problem
 In India, voter lists are often published as scanned images or PDFs in regional languages like Hindi and Kannada. Manual data entry from these documents is tedious, error-prone, and unscalable — especially when schema consistency is required for downstream analytics or government integrations.
@@ -24,6 +27,18 @@ OCR-Multilingual is a Python-based tool that extracts structured voter data from
 - 🧠 Combines OCR + LLM post-processing for higher accuracy
 - ⚠️ Flags malformed rows for manual traceability
 
+---
+
+## What’s Inside (and what’s not)
+- ✅ Screenshots (UI, tech stack, architecture)
+- ✅ Sample input (scanned image) and output (Excel)
+- ✅ Harmless sample code to demonstrate engineering style
+- ✅ Three scripts available in `/src/` (structure-only, no secrets)
+- ❌ No runnable pipeline in this public version
+- ❌ No API keys or .env files
+- ❌ No setup instructions or requirements.txt
+
+---
 
 ## Tech Stack
 - Python 3.10+
@@ -36,6 +51,8 @@ OCR-Multilingual is a Python-based tool that extracts structured voter data from
   <img src="screenshots/tech_stack.png" alt="Tech Stack Overview" width="500"/>
 </p>
 
+---
+
 ## Architecture
 ```mermaid
 flowchart LR
@@ -43,7 +60,3 @@ flowchart LR
     B --> C["LLM Post-Processor (Groq API)"]
     C --> D["CSV Schema Aligner"]
     D --> E["Excel Output (openpyxl)"]
-
-
-
-
