@@ -13,6 +13,17 @@
 > The production code and full pipeline are proprietary and available **under NDA**.  
 > To see it running live: **akar@akar7a.onmicrosoft.com**
 
+##  About Me
+
+I’m Arindam Kar — a senior IT consultant and fractional CTO with 23+ years of experience delivering AI-backed automation systems across fintech, govtech, and startup ecosystems.
+
+- I design and deliver real PoCs — not pitch decks
+- Hands-on with AI infra, OCR, LLMs, and business process automation
+- Available for PoC / Product builds, advisory, and partner roles
+
+📧 **akar@akar7a.onmicrosoft.com**  
+🔗 [LinkedIn: Arindam Kar](https://www.linkedin.com/in/arindam-kar-98085917/)  
+🏢 [GitHub Org: KriyaLab](https://github.com/KriyaLab)
 # OCR-Multilingual – Voter List OCR for Hindi, Kannada, and English
 
 ## Problem
