@@ -12,6 +12,8 @@
 > This repo demonstrates my architecture, process, and outcomes using safe sample assets.  
 > The production code and full pipeline are proprietary and available **under NDA**.  
 > To see it running live: **akar@akar7a.onmicrosoft.com**
+>
+> **Tags:** `ocr` · `llm` · `google-vision` · `streamlit` · `hindi` · `kannada` · `ai-showcase`
 
 ##  About Me
 
