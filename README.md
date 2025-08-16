@@ -24,6 +24,18 @@ OCR-Multilingual is a Python-based tool that extracts structured voter data from
 - 🧠 Combines OCR + LLM post-processing for higher accuracy
 - ⚠️ Flags malformed rows for manual traceability
 
+
+## Tech Stack
+- Python 3.10+
+- Google Vision AI API (OCR)
+- Groq API (LLM post-processing)
+- Pandas, OpenCV, regex
+- `openpyxl` for Excel-safe output
+
+<p align="center">
+  <img src="screenshots/tech_stack.png" alt="Tech Stack Overview" width="500"/>
+</p>
+
 ## Architecture
 ```mermaid
 flowchart LR
@@ -31,5 +43,7 @@ flowchart LR
     B --> C["LLM Post-Processor (Groq API)"]
     C --> D["CSV Schema Aligner"]
     D --> E["Excel Output (openpyxl)"]
+
+
 
 
