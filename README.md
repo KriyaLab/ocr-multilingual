@@ -3,6 +3,10 @@
 </p>
 
 # OCR-Multilingual – Voter List OCR for Hindi, Kannada, and English
+```markdown
+![Python](https://img.shields.io/badge/Python-3.10-blue.svg)
+![Vision API](https://img.shields.io/badge/API-Google%20Vision-yellow)
+![Groq](https://img.shields.io/badge/LLM-Groq%20API-purple)
 
 ## Problem
 In India, voter lists are often published as scanned images or PDFs in regional languages like Hindi and Kannada. Manual data entry from these documents is tedious, error-prone, and unscalable — especially when schema consistency is required for downstream analytics or government integrations.
@@ -24,9 +28,4 @@ flowchart LR
     C --> D["CSV Schema Aligner"]
     D --> E["Excel Output (openpyxl)"]
 
-
-```markdown
-![Python](https://img.shields.io/badge/Python-3.10-blue.svg)
-![Vision API](https://img.shields.io/badge/API-Google%20Vision-yellow)
-![Groq](https://img.shields.io/badge/LLM-Groq%20API-purple)
 
