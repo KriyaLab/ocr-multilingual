@@ -2,7 +2,14 @@
   <img src="screenshots/kriya_banner.png" alt="Kriya Banner" width="500"/>
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10-blue.svg" />
+  <img src="https://img.shields.io/badge/API-Google%20Vision-yellow" />
+  <img src="https://img.shields.io/badge/LLM-Groq%20API-purple" />
+</p>
+
 # OCR-Multilingual – Voter List OCR for Hindi, Kannada, and English
+
 
 
 ## Problem
