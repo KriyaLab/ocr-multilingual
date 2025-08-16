@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="screenshots/kriya banner.png" alt="Kriya Banner" width="500"/>
+  <img src="screenshots/kriya_banner.png" alt="Kriya Banner" width="500"/>
 </p>
 
 # OCR-Multilingual – Voter List OCR for Hindi, Kannada, and English
